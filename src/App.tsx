@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Layout from './components/Layout'
-import Tasks from './pages/Tasks'
-import Profile from './pages/Profile'
-import Schedule from './pages/Schedule'
+import System from './pages/System'
+import NotePad from './pages/NotePad'
+import MyCase from './pages/MyCase'
 
 function App() {
 
@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Schedule />} />
-          <Route path="/tasks" element={<Tasks />} />
-          <Route path="/system" element={<Profile />} />
+          <Route path="/mycase" element={<MyCase />} />
+          <Route path="/notepad" element={<NotePad />} />
+          <Route path="/system" element={<System />} />
         </Route>
       </Routes>
     </BrowserRouter>

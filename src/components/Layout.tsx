@@ -15,13 +15,13 @@ export default function Layout(){
                     <Outlet />
                 </div>
                 <div className="hidden lg:flex lg:flex-col items-end p-5 gap-10">
-                    <Link to="/work" className="flex flex-col items-center">
+                    <Link to="/mycase" className="flex flex-col items-center">
                         <img src="/super_file_icon.png" className="h-[100px] w-[100px]"/>
-                        <h2 className="font-ubuntu bg-white">Work</h2>
+                        <h2 className="font-ubuntu bg-white">My Case</h2>
                     </Link>
-                    <Link to="/tasks" className="flex flex-col items-center">
+                    <Link to="/notepad" className="flex flex-col items-center">
                         <img src="/burn_task_icon.png" className="h-[100px] w-[100px]"/>
-                        <h2 className="font-ubuntu bg-white">Tasks</h2>
+                        <h2 className="font-ubuntu bg-white">Note Pad</h2>
                     </Link>
                     <Link to="/system" className="flex flex-col items-center">
                         <img src="/dead_comp_icon.png" className="h-[100px] w-[100px]"/>
@@ -29,10 +29,10 @@ export default function Layout(){
                     </Link>
                 </div>
                 <div className="h-[15%] w-full flex lg:hidden justify-evenly items-center px-5 bg-white border-solid border-black border-2">
-                    <Link to="/work">
+                    <Link to="/mycase">
                         <img src="/super_file_icon.png" className="h-[75px] w-[75px]"/>
                     </Link>
-                    <Link to="/tasks">
+                    <Link to="/notepad">
                         <img src="/burn_task_icon.png" className="h-[75px] w-[75px]"/>
                     </Link>
                     <Link to="/system">

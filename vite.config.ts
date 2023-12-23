@@ -6,9 +6,9 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 	registerType: "prompt",
 	includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
 	manifest:{
-		"name": "Celeste",
-		"short_name": "Celeste",
-		"description": "An app to provide quick daily scripture study",
+		"name": "bene.",
+		"short_name": "bene.",
+		"description": "A task management app straight from the 90's",
 		"icons": [
 			{
 				"src": "/android-chrome-192x192.png",
