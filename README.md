@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+## 📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+bene is a web application that aims to solve the common problem of task management with a ui reminiscent of early GUIs (specifically MacOS). Enjoy this artistic take on task management!
 
-Currently, two official plugins are available:
+## 🔍 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [💻 Stack](#stack)
 
-## Expanding the ESLint configuration
+* [⚙️ Setting Up](#setting-up)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* [🚀 Run Locally](#run-locally)
 
-- Configure the top-level `parserOptions` property like this:
+* [🗺️ Roadmap](#roadmap)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+* [🙏 Acknowledgements](#acknowledgements)
+
+* [📜 Changelog](#changelog)
+
+## 💻 Stack
+
+- [react](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start): A routing library for React applications.
+- [dexie](https://dexie.org/): A minimalistic IndexedDB wrapper for client-side storage.
+- [typescript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
+- [vite](https://vitejs.dev/): A fast development server and build tool for modern web applications.
+- [tailwindcss](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
+- [autoprefixer](https://autoprefixer.github.io/): A PostCSS plugin to parse CSS and add vendor prefixes automatically.
+- [eslint](https://eslint.org/): A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.
+
+These eight dependencies cover crucial aspects such as UI rendering (React), routing (React Router), client-side storage (Dexie), type safety (TypeScript), development server (Vite), CSS styling (Tailwind CSS), CSS prefixing (Autoprefixer), and code quality (ESLint).
+
+## 🚀 Run Locally
+1.Clone the bene repository:
+```sh
+git clone https://github.com/johngthecreator/bene
+```
+2.Install the dependencies with one of the package managers listed below:
+```bash
+pnpm install
+bun install
+npm install
+yarn install
+```
+3.Start the development mode:
+```bash
+pnpm dev
+bun dev
+npm run dev
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🗺️ Roadmap
+- [X] **Task 1:** Develop/produce MVP.
+- [   ] **Task 2:** Enhance PWA capabilities.
+- [   ] **Task 3:** Future Google Integration??.
+
+## 🙏 Acknowledgements
+- [My Artist Inspiration](https://x.com/SusanKare?s=20).
+
+## 📜 Changelog
+> All notable changes to this project will be documented in this section.
+#### [Version 1.0.0] - 2023-12-23
+- Launched React Web App.
+- Created webmanifest and icons.
+

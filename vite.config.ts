@@ -29,8 +29,8 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 				"purpose": "maskable"
 			}
 		],
-		"theme_color": "#F8F1EA",
-		"background_color": "#F8F1EA",
+		"theme_color": "#CBCBCB",
+		"background_color": "#CBCBCB",
 		"display": "standalone",
 		"scope": "/",
 		"start_url": "/",
